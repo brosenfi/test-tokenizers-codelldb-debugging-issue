@@ -16,6 +16,9 @@
             "args": [
                 "--tokenizer-json-path",
                 "${workspaceFolder}/tokenizer.json"
+            ],
+            "initCommands": [
+                "log enable lldb all"
             ]
         }
     ]

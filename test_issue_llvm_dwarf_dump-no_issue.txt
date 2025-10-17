@@ -1,0 +1,89 @@
+target/debug/test-issue:	file format elf64-x86-64
+DW_TAG_structure_type
+              DW_AT_name	("A1A1A1A1")
+              DW_AT_byte_size	(0x01)
+              DW_AT_accessibility	(DW_ACCESS_private)
+              DW_AT_alignment	(1)
+  DW_TAG_variant_part
+    DW_TAG_variant
+      DW_TAG_member
+                    DW_AT_name	("A")
+                    DW_AT_type	("test_issue::A1A1A1A1::A")
+                    DW_AT_alignment	(1)
+                    DW_AT_data_member_location	(0x00)
+      NULL
+    NULL
+  DW_TAG_structure_type
+                DW_AT_name	("A")
+                DW_AT_byte_size	(0x01)
+                DW_AT_accessibility	(DW_ACCESS_private)
+                DW_AT_alignment	(1)
+    DW_TAG_member
+                  DW_AT_name	("__0")
+                  DW_AT_type	("test_issue::B1B1B1B1")
+                  DW_AT_alignment	(1)
+                  DW_AT_data_member_location	(0x00)
+                  DW_AT_accessibility	(DW_ACCESS_private)
+    NULL
+  NULL
+DW_TAG_member
+              DW_AT_name	("A")
+              DW_AT_type	("test_issue::A1A1A1A1::A")
+              DW_AT_alignment	(1)
+              DW_AT_data_member_location	(0x00)
+DW_TAG_structure_type
+              DW_AT_name	("A")
+              DW_AT_byte_size	(0x01)
+              DW_AT_accessibility	(DW_ACCESS_private)
+              DW_AT_alignment	(1)
+  DW_TAG_member
+                DW_AT_name	("__0")
+                DW_AT_type	("test_issue::B1B1B1B1")
+                DW_AT_alignment	(1)
+                DW_AT_data_member_location	(0x00)
+                DW_AT_accessibility	(DW_ACCESS_private)
+  NULL
+DW_TAG_structure_type
+              DW_AT_name	("B1B1B1B1")
+              DW_AT_byte_size	(0x01)
+              DW_AT_accessibility	(DW_ACCESS_public)
+              DW_AT_alignment	(1)
+  DW_TAG_variant_part
+    DW_TAG_variant
+      DW_TAG_member
+                    DW_AT_name	("B")
+                    DW_AT_type	("test_issue::B1B1B1B1::B")
+                    DW_AT_alignment	(1)
+                    DW_AT_data_member_location	(0x00)
+      NULL
+    NULL
+  DW_TAG_structure_type
+                DW_AT_name	("B")
+                DW_AT_byte_size	(0x01)
+                DW_AT_accessibility	(DW_ACCESS_public)
+                DW_AT_alignment	(1)
+    DW_TAG_member
+                  DW_AT_name	("__0")
+                  DW_AT_type	("u8")
+                  DW_AT_alignment	(1)
+                  DW_AT_data_member_location	(0x00)
+                  DW_AT_accessibility	(DW_ACCESS_public)
+    NULL
+  NULL
+DW_TAG_member
+              DW_AT_name	("B")
+              DW_AT_type	("test_issue::B1B1B1B1::B")
+              DW_AT_alignment	(1)
+              DW_AT_data_member_location	(0x00)
+DW_TAG_structure_type
+              DW_AT_name	("B")
+              DW_AT_byte_size	(0x01)
+              DW_AT_accessibility	(DW_ACCESS_public)
+              DW_AT_alignment	(1)
+  DW_TAG_member
+                DW_AT_name	("__0")
+                DW_AT_type	("u8")
+                DW_AT_alignment	(1)
+                DW_AT_data_member_location	(0x00)
+                DW_AT_accessibility	(DW_ACCESS_public)
+  NULL

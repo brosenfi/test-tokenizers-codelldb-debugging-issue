@@ -9,9 +9,12 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install ninja-build \
     && apt-get -y install lld
 
-ADD build_lldb.sh /home/vscode/
-RUN mkdir /opt/llvm-project \
-    && /home/vscode/build_lldb.sh \
-    && chown vscode:rustlang /opt/llvm-project
+ADD build_lldb.sh install_lldb.sh /home/vscode/
+# NOTE: This should be run after the container is created as it is huge
+# RUN mkdir /opt/llvm-project \
+#     && /home/vscode/build_lldb.sh \
+#     && chown vscode:rustlang /opt/llvm-project
+
+# RUN /home/vscode/install_lldb.sh
 
 USER vscode

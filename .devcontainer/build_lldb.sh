@@ -12,5 +12,4 @@ cmake -G Ninja \
     -DLLVM_USE_LINKER=lld \
     -DLLVM_RAM_PER_LINK_JOB=12000 \
     ../llvm
-ninja
-ninja install
+ninja lldb lldb-server
